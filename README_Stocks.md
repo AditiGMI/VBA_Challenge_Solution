@@ -1,0 +1,8 @@
+Create a script that loops through all the stocks for one year and outputs the following information:
+The ticker symbol : For this firstly we need to create a variable for ticker/company name & use a function to count the number of rows for the same ticker. 
+Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year : For this we need to find the opening value of the stock at the opening day & substract it with the closing value of the stock at the closing/last day. 
+The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year: for this we need to divide the yearly change by the opening day stock value for each ticker/company.
+The total stock volume of the stock : add all the stock volume for each ticker.
+Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume" : check the highest & lowest value in the column of the calculated percentage change
+Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once: loop all the worksheets together at the very begining of the code.
+Negative & positive value of the percentage change should have red & Green color respectively : for this we need to count the cells & add condional formating to add colorindex function to this row, if value is > 0 then color red, Else if value is > 0 then color green
